@@ -45,7 +45,6 @@ def read_config():
 
 def fecthinfo (upc):
     url = 'https://api.upcitemdb.com/prod/trial/lookup?upc=%s' % upc
-    print(url)
     response = requests.get(url)
     try:
         response.raise_for_status()
@@ -59,11 +58,10 @@ def fecthinfo (upc):
             renewtime = time.strftime('%Y%m%dT%H%M%SZ', time.gmtime(int(response.headers['X-RateLimit-Reset'])))
             reply = ("You've exceeded your API rate!\n"
                      "It will refresh at %s") % renewtime
-            return reply, tomuch, renew
+            return reply, imgurl, tomuch, renew
         else:
             return "INVALID UPC", tomuch
     data = upcData['items']
-    print(data)
     info = "Title: \n"
     try:
         info += data[0]['title']
@@ -74,9 +72,14 @@ def fecthinfo (upc):
     try:
         info += data[0]['description']
     except:
-        info += "No description!!"
+        info += "No description!"
     info += "\n"
-    return info, tomuch, renew
+    try:
+        imgurl = data[0]['images']
+        imgurl = (imgurl[0])
+    except:
+        imgurl = "No image!"
+    return info, imgurl, tomuch, renew
 
 def printexp(renew):
     p.text("\n\n")
@@ -87,14 +90,13 @@ def printexp(renew):
     p.text("Until %s" % renew)
     p.text("\n")
 
-def fetchIMG(halt):
-    if not halt:
-        return
-    pdctImage = info[0]['images']
-    url = (pdctImage[0])
-    path, headers = urlretrieve(url)
-    image = Image.open(path)
-    return image.resize((576, 576))
+def fetchIMG(url):
+        try:
+            path, headers = urlretrieve(url)
+            image = Image.open(path)
+            return image.resize((576, 576))
+        except:
+            return "No image!"
 
 try:
     config = read_config()
@@ -107,12 +109,13 @@ p = printer.Usb(int(config['idVendor'], 16), int(config['idProduct'], 16), in_ep
                 out_ep=int(config['out_ep'], 16), profile=str(config['profile']))
 
 while True:
-    info, remaining, renew = fecthinfo(input("Put in the damn fuckin UPC! "))
+    info, imageurl, remaining, renew = fecthinfo(input("Put in the damn fuckin UPC! "))
+    print
     p.hw("INIT")
     p.text(info)
     try:
-        p.image(fetchIMG())
+        p.image(fetchIMG(imageurl))
     except:
-        pass
+        p.text(fetchIMG(imageurl))
     printexp(renew)
     p.cut()
