@@ -58,9 +58,12 @@ def fecthinfo (upc):
             renewtime = time.strftime('%Y%m%dT%H%M%SZ', time.gmtime(int(response.headers['X-RateLimit-Reset'])))
             reply = ("You've exceeded your API rate!\n"
                      "It will refresh at %s") % renewtime
+            imgurl = None
             return reply, imgurl, tomuch, renew
         else:
-            return "INVALID UPC", tomuch
+            imgurl = None
+            reply = "Invalid URL!\n"
+            return reply, imgurl, tomuch, renew
     data = upcData['items']
     info = "Title: \n"
     try:
@@ -116,6 +119,7 @@ while True:
     try:
         p.image(fetchIMG(imageurl))
     except:
-        p.text(fetchIMG(imageurl))
+        if imageurl != None:
+            p.text(fetchIMG(imageurl))
     printexp(renew)
     p.cut()
