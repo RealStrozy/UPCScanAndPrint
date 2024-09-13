@@ -6,6 +6,9 @@ import json
 from PIL import Image
 import time
 
+from future.backports.datetime import datetime
+
+
 def create_config():
     config = configparser.ConfigParser()
 
@@ -82,7 +85,11 @@ def fecthinfo (upc):
         imgurl = (imgurl[0])
     except:
         imgurl = "No image!"
-    return info, imgurl, tomuch, renew
+    try:
+        merchlink = data[0]['offers'][0]['link']
+    except:
+        merchlink = "No merch link!"
+    return info, imgurl, merchlink, tomuch, renew
 
 def printexp(renew):
     p.text("\n\n")
@@ -101,6 +108,13 @@ def fetchIMG(url):
         except:
             return "No image!"
 
+def printHeader():
+    p.image('./assets/logo.png', center=True)
+    p.ln(3)
+    now = datetime.now().strftime('%m/%d/%Y %H:%M:%S %Z')
+    p.text('Printed at: %s\n' % now)
+    p.ln(1)
+
 try:
     config = read_config()
 except:
@@ -112,14 +126,24 @@ p = printer.Usb(int(config['idVendor'], 16), int(config['idProduct'], 16), in_ep
                 out_ep=int(config['out_ep'], 16), profile=str(config['profile']))
 
 while True:
-    info, imageurl, remaining, renew = fecthinfo(input("Put in the damn fuckin UPC! "))
-    print
+    info, imageurl, merchlink, remaining, renew = fecthinfo(input("Put in the damn fuckin UPC! "))
     p.hw("INIT")
+    printHeader()
     p.text(info)
     try:
         p.image(fetchIMG(imageurl))
     except:
-        if imageurl != None:
-            p.text(fetchIMG(imageurl))
+        pass
+
+    p.hw('INIT')
+    if merchlink != 'No merch link!':
+        p.set(align='center', double_width=True, double_height=True)
+        p.text('\n\nBuy Here\n\n')
+        p.qr(str(merchlink), native=True, size=4)
+        p.text('\n')
+    else:
+        p.ln(1)
+        p.text(merchlink)
+        p.ln(1)
     printexp(renew)
     p.cut()
