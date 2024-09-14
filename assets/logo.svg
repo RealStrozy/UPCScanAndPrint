@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.0180159"
-     inkscape:cx="398.81499"
-     inkscape:cy="481.81959"
+     inkscape:zoom="1.4396919"
+     inkscape:cx="519.55561"
+     inkscape:cy="421.27069"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g581"
+     inkscape:current-layer="g648"
      showgrid="false"
      showguides="true">
     <sodipodi:guide
@@ -104,61 +104,71 @@
             <g
                id="g648"
                transform="translate(-7.0190429e-6,-5.0546237)">
-              <text
-                 xml:space="preserve"
-                 style="font-size:96px;line-height:1.25;font-family:Saki;-inkscape-font-specification:Saki;letter-spacing:0px;word-spacing:0px"
-                 x="-84.412643"
-                 y="380.61938"
-                 id="text2"><tspan
-                   sodipodi:role="line"
-                   id="tspan2"
-                   x="-84.412643"
-                   y="380.61938"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Futura BdCn BT';-inkscape-font-specification:'Futura BdCn BT'">GroceryListDB</tspan></text>
               <g
-                 id="g499">
-                <path
-                   id="rect4"
-                   style="fill:#000000;-inkscape-stroke:none"
-                   d="M -6.1389833e-4,-5.3486047e-4 V 151.18111 H 151.18103 V -5.3486047e-4 Z M 75.45056,3.5912621 c 14.062486,0 26.56251,3.0937564 37.5,9.2812499 10.93749,6.124994 19.87501,15.125013 26.8125,27.000001 l -43.96875,16.3125 c -2.312497,-3.812496 -5.093753,-6.656252 -8.34375,-8.53125 -3.249997,-1.874998 -6.968754,-2.8125 -11.15625,-2.8125 -7.312493,0 -13.156255,2.781256 -17.531251,8.34375 -4.312495,5.562495 -6.46875,13.03126 -6.46875,22.406251 0,9.68749 2.187505,17.218756 6.5625,22.59375 4.374996,5.312496 10.562509,7.968746 18.562501,7.968746 4.749995,0 8.593753,-1 11.53125,-3 2.999997,-1.99999 4.781251,-4.781249 5.34375,-8.343746 H 72.82556 V 62.560013 h 75.84375 c 0.125,2.812498 0.21875,4.906252 0.28125,6.281251 0.0625,1.374998 0.0937,2.593751 0.0937,3.65625 0,7.874992 -0.75,15.062507 -2.25,21.5625 -1.5,6.499996 -3.6875,12.250006 -6.5625,17.249996 -6.99999,11.74999 -16.03126,20.75001 -27.09375,27.00001 -11.06249,6.18749 -23.625014,9.28125 -37.6875,9.28125 -10.37499,0 -20.03126,-1.71876 -28.968751,-5.15625 -8.874991,-3.5 -16.750007,-8.62501 -23.625,-15.375 -6.812494,-6.75 -11.968754,-14.46876 -15.4687508,-23.15626 C 3.8880617,95.216273 2.138058,85.778754 2.138058,75.591264 c 0,-10.24999 1.7500037,-19.71876 5.2500002,-28.406251 C 10.950555,38.435022 16.106815,30.747506 22.856809,24.122513 29.669302,17.435019 37.544318,12.341259 46.481809,8.8412622 55.4193,5.3412657 65.07557,3.5912621 75.45056,3.5912621 Z" />
-                <path
-                   id="rect4-2"
-                   style="fill:#000000;-inkscape-stroke:none"
-                   d="M 151.18103,151.18111 V 302.36275 H 302.36267 V 151.18111 Z m 17.23047,6.96484 h 65.71875 c 14.06249,0 25.03126,3.31251 32.90625,9.9375 7.87499,6.5625 11.8125,15.71877 11.8125,27.46875 0,7.5 -1.875,13.75001 -5.625,18.75 -3.68749,4.9375 -8.93751,8.15626 -15.75,9.65625 9.31249,1.9375 16.25001,5.59376 20.8125,10.96876 4.5625,5.37499 6.84375,12.59375 6.84375,21.65625 0,12.81248 -4.34376,22.5 -13.03125,29.0625 -8.62499,6.49999 -21.34377,9.75 -38.15625,9.75 H 168.4115 Z m 46.3125,32.625 v 19.21875 h 6.46875 c 4,0 7.03125,-0.8125 9.09375,-2.4375 2.125,-1.68749 3.1875,-4.09375 3.1875,-7.21875 0,-3.12499 -1.0625,-5.5 -3.1875,-7.125 -2.0625,-1.62499 -5.09375,-2.4375 -9.09375,-2.4375 z m 0,48.75001 v 21.9375 h 8.25 c 4.9375,0 8.71875,-0.93751 11.34375,-2.8125 2.6875,-1.9375 4.03125,-4.65626 4.03125,-8.15625 0,-3.5625 -1.34375,-6.28126 -4.03125,-8.15625 -2.625,-1.875 -6.40625,-2.8125 -11.34375,-2.8125 z" />
-                <text
-                   xml:space="preserve"
-                   style="font-size:192px;line-height:1.25;font-family:Futura;-inkscape-font-specification:Futura;letter-spacing:0px;word-spacing:0px"
-                   x="-2.8313217"
-                   y="295.39667"
-                   id="text3-4"><tspan
-                     sodipodi:role="line"
-                     id="tspan3-7"
-                     x="-2.8313217"
-                     y="295.39667"
-                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:192px;font-family:'Futura XBlk BT';-inkscape-font-specification:'Futura XBlk BT'">D</tspan></text>
-                <text
-                   xml:space="preserve"
-                   style="font-size:192px;line-height:1.25;font-family:Futura;-inkscape-font-specification:Futura;letter-spacing:0px;word-spacing:0px"
-                   x="165.22479"
-                   y="144.21556"
-                   id="text3-0"><tspan
-                     sodipodi:role="line"
-                     id="tspan3-6"
-                     x="165.22479"
-                     y="144.21556"
-                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:192px;font-family:'Futura XBlk BT';-inkscape-font-specification:'Futura XBlk BT'">L</tspan></text>
+                 id="g433">
+                <g
+                   id="g499">
+                  <g
+                     aria-label="D"
+                     id="text3-4"
+                     style="font-size:192px;line-height:1.25;font-family:Futura;-inkscape-font-specification:Futura;letter-spacing:0px;word-spacing:0px" />
+                  <g
+                     aria-label="L"
+                     id="text3-0"
+                     style="font-size:192px;line-height:1.25;font-family:Futura;-inkscape-font-specification:Futura;letter-spacing:0px;word-spacing:0px">
+                    <g
+                       id="g405">
+                      <g
+                         id="g417">
+                        <path
+                           id="rect4"
+                           style="fill:#000000;-inkscape-stroke:none"
+                           d="M -6.1389833e-4,-5.3486047e-4 V 151.18111 H 151.18103 V -5.3486047e-4 Z M 75.45056,3.5912621 c 14.062486,0 26.56251,3.0937564 37.5,9.2812499 10.93749,6.124994 19.87501,15.125013 26.8125,27.000001 l -43.96875,16.3125 c -2.312497,-3.812496 -5.093753,-6.656252 -8.34375,-8.53125 -3.249997,-1.874998 -6.968754,-2.8125 -11.15625,-2.8125 -7.312493,0 -13.156255,2.781256 -17.531251,8.34375 -4.312495,5.562495 -6.46875,13.03126 -6.46875,22.406251 0,9.68749 2.187505,17.218756 6.5625,22.59375 4.374996,5.312496 10.562509,7.968746 18.562501,7.968746 4.749995,0 8.593753,-1 11.53125,-3 2.999997,-1.99999 4.781251,-4.781249 5.34375,-8.343746 H 72.82556 V 62.560013 h 75.84375 c 0.125,2.812498 0.21875,4.906252 0.28125,6.281251 0.0625,1.374998 0.0937,2.593751 0.0937,3.65625 0,7.874992 -0.75,15.062507 -2.25,21.5625 -1.5,6.499996 -3.6875,12.250006 -6.5625,17.249996 -6.99999,11.74999 -16.03126,20.75001 -27.09375,27.00001 -11.06249,6.18749 -23.625014,9.28125 -37.6875,9.28125 -10.37499,0 -20.03126,-1.71876 -28.968751,-5.15625 -8.874991,-3.5 -16.750007,-8.62501 -23.625,-15.375 -6.812494,-6.75 -11.968754,-14.46876 -15.4687508,-23.15626 C 3.8880617,95.216273 2.138058,85.778754 2.138058,75.591264 c 0,-10.24999 1.7500037,-19.71876 5.2500002,-28.406251 C 10.950555,38.435022 16.106815,30.747506 22.856809,24.122513 29.669302,17.435019 37.544318,12.341259 46.481809,8.8412622 55.4193,5.3412657 65.07557,3.5912621 75.45056,3.5912621 Z"
+                           transform="translate(-1.8792679e-6)" />
+                        <path
+                           id="rect4-2"
+                           style="fill:#000000;-inkscape-stroke:none"
+                           d="M 151.18103,151.18111 V 302.36275 H 302.36267 V 151.18111 Z m 17.23047,6.96484 h 65.71875 c 14.06249,0 25.03126,3.31251 32.90625,9.9375 7.87499,6.5625 11.8125,15.71877 11.8125,27.46875 0,7.5 -1.875,13.75001 -5.625,18.75 -3.68749,4.9375 -8.93751,8.15626 -15.75,9.65625 9.31249,1.9375 16.25001,5.59376 20.8125,10.96876 4.5625,5.37499 6.84375,12.59375 6.84375,21.65625 0,12.81248 -4.34376,22.5 -13.03125,29.0625 -8.62499,6.49999 -21.34377,9.75 -38.15625,9.75 H 168.4115 Z m 46.3125,32.625 v 19.21875 h 6.46875 c 4,0 7.03125,-0.8125 9.09375,-2.4375 2.125,-1.68749 3.1875,-4.09375 3.1875,-7.21875 0,-3.12499 -1.0625,-5.5 -3.1875,-7.125 -2.0625,-1.62499 -5.09375,-2.4375 -9.09375,-2.4375 z m 0,48.75001 v 21.9375 h 8.25 c 4.9375,0 8.71875,-0.93751 11.34375,-2.8125 2.6875,-1.9375 4.03125,-4.65626 4.03125,-8.15625 0,-3.5625 -1.34375,-6.28126 -4.03125,-8.15625 -2.625,-1.875 -6.40625,-2.8125 -11.34375,-2.8125 z"
+                           transform="translate(-1.8792679e-6)" />
+                        <path
+                           d="m 58.949928,253.49042 q 16.6875,-0.0937 24.375,-6.46875 7.6875,-6.46875 7.6875,-20.15625 0,-13.40625 -7.40625,-19.96875 -7.3125,-6.5625 -22.5,-6.5625 h -2.15625 z m -48.9375,41.90625 v -137.25 h 39.9375 q 19.03125,0 32.4375,2.15625 13.5,2.0625 21.937502,6.46875 17.8125,9.375 27.28125,24.84375 9.5625,15.46875 9.5625,35.25 0,19.6875 -9.46875,35.0625 -9.46875,15.375 -27.375,24.84375 -8.718752,4.5 -22.125002,6.5625 -13.40625,2.0625 -35.90625,2.0625 z"
+                           style="font-size:192px;line-height:1.25;font-family:'Futura XBlk BT';-inkscape-font-specification:'Futura XBlk BT';letter-spacing:0px;word-spacing:0px"
+                           id="path296"
+                           transform="translate(-1.8792679e-6)" />
+                        <path
+                           d="M 178.06854,144.21556 V 6.9655609 h 49.40625 V 99.684311 h 48 v 44.531249 z"
+                           style="font-family:'Futura XBlk BT';-inkscape-font-specification:'Futura XBlk BT'"
+                           id="path299" />
+                      </g>
+                    </g>
+                  </g>
+                </g>
+                <g
+                   id="g411">
+                  <text
+                     xml:space="preserve"
+                     style="font-size:96px;line-height:1.25;font-family:Saki;-inkscape-font-specification:Saki;letter-spacing:0px;word-spacing:0px"
+                     x="-84.412643"
+                     y="380.61938"
+                     id="text2"><tspan
+                       sodipodi:role="line"
+                       id="tspan2"
+                       x="-84.412643"
+                       y="380.61938"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Futura BdCn BT';-inkscape-font-specification:'Futura BdCn BT'">GroceryListDB</tspan></text>
+                  <text
+                     xml:space="preserve"
+                     style="font-size:24px;line-height:1.25;font-family:Futura;-inkscape-font-specification:Futura;letter-spacing:0px;word-spacing:0px"
+                     x="308.82175"
+                     y="404.72748"
+                     id="text538"><tspan
+                       sodipodi:role="line"
+                       id="tspan536"
+                       x="308.82175"
+                       y="404.72748"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Futura BdCn BT';-inkscape-font-specification:'Futura BdCn BT'">by Strozy</tspan></text>
+                </g>
               </g>
-              <text
-                 xml:space="preserve"
-                 style="font-size:24px;line-height:1.25;font-family:Futura;-inkscape-font-specification:Futura;letter-spacing:0px;word-spacing:0px"
-                 x="308.82175"
-                 y="404.72748"
-                 id="text538"><tspan
-                   sodipodi:role="line"
-                   id="tspan536"
-                   x="308.82175"
-                   y="404.72748"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Futura BdCn BT';-inkscape-font-specification:'Futura BdCn BT'">by Strozy</tspan></text>
             </g>
           </g>
         </g>
